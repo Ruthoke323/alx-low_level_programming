@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE.c -o $CFILE -Wa, -adhln=$CFILE.s -g -fverbose-asm -masm=intel
+gcc -S-masm=intel $CFILEl
