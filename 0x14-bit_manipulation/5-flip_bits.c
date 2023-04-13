@@ -16,7 +16,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	for (i = 0; i < (sizeof(unsigned long int) * 8); i++)
 	{
 		if (result == (differnce & result))
-			j+;
+			jj+;
 		result <<= 1;
 	}
 
